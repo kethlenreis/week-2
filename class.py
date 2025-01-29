@@ -1,4 +1,8 @@
+import random 
 def get_number():
+    n = random.radiant (1,10)
+    return n
+
     while True:
         try:
             n = int(input("What's n? "))
